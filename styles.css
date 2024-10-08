@@ -2,4 +2,70 @@ body {
   background-color: black;
   display: flex;
   justify-content: center;
+  color: white;
+}
+
+.top {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+table,
+th,
+caption {
+  border: 1px solid white;
+}
+
+.tt {
+  text-transform: uppercase;
+}
+
+th,
+caption {
+  padding: 5px;
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 75%;
+}
+
+.content {
+  font-weight: 100;
+}
+
+.tabletitle {
+  text-align: center;
+  width: 80vw;
+}
+
+.form-div {
+  width: 50%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-title {
+  font-weight: bold;
+}
+
+img {
+  height: 50%;
+  width: 100%;
+}
+
+figcaption {
+  background-color: rgb(255 255 255/ 80);
+  color: #000;
+  text-align: center;
 }
